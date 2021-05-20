@@ -1,5 +1,5 @@
 body{
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.9);
 }
 .container{
     max-width: 350px
@@ -12,8 +12,18 @@ input[type=text]:focus{
     max-width: 400px;
 }
 .todos li{
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.5);
 }
 .delete{
     cursor: pointer;
+}
+.none{
+    display: none !important;
+}
+.show{
+    display: block;
+}
+footer{
+    padding-left: 50%;
+    margin-top: 100vh;
 }
